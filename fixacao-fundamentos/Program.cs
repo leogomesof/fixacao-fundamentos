@@ -10,7 +10,7 @@ namespace fixacao_fundamentos
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("O salário final é: " + Aumento.Calculo());
+            Console.WriteLine("O salário final é R$: " + Aumento.Calculo());
             Console.Write("Aperte enter para sair");
             Console.Read();
         }
